@@ -1,0 +1,39 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-side.left {
+    align-items: baseline;
+}
+
+.header-side.right {
+    align-items: flex-end;
+}
+
+.card-zone, .drop-zone {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 30vh;
+    align-self: center;
+}
+
+.game :nth-child(3) {
+    align-self: baseline;
+}
+
+.top-zone {
+    align-self: center;
+}
